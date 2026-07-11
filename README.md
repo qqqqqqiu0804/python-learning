@@ -1,25 +1,39 @@
-# Python Learning Project
+# Python学习计划
 
-这是一个Python学习项目，旨在帮助学习者从零开始系统学习Python编程。
+8周内从零开始掌握Python，能够独立完成Python项目。
 
-## 目录结构
+## 学习进度
 
-- `01-python-basic` - Python基础语法
-- `02-functions-modules` - 函数与模块
-- `03-oop` - 面向对象编程
-- `04-stdlib-projects` - 标准库项目
-- `05-final-project` - 综合项目
-- `exercises` - 练习题
-- `notes` - 学习笔记
+- [x] Week 1: Python环境与基础语法
+- [x] Week 2: 数据结构与控制流
+- [x] Week 3: 函数与模块
+- [x] Week 4: 面向对象基础
+- [x] Week 5: 标准库与第三方库
+- [x] Week 6: 项目规划与架构
+- [x] Week 7: 项目开发
+- [x] Week 8: 项目完善与部署
 
-## 如何使用
+## 项目结构
 
-1. 按顺序学习各个目录中的内容
-2. 在exercises目录中完成练习题
-3. 在notes目录中记录学习笔记
-4. 在05-final-project中完成综合项目
+```
+python-learning/
+├── 01-python-basic/        # 基础语法
+├── 02-functions-modules/   # 函数与模块
+├── 03-oop/                 # 面向对象
+├── 04-stdlib-projects/     # 标准库项目
+├── 05-final-project/       # 完整项目
+├── exercises/              # 刷题练习
+└── notes/                  # 学习笔记
+```
 
-## 开发环境
+## 如何运行
 
-- Python 3.12+
-- Git
+1. 克隆仓库
+2. 进入对应目录
+3. 运行Python文件
+
+```bash
+git clone https://github.com/yourusername/python-learning.git
+cd python-learning
+python 01-python-basic/hello.py
+```
